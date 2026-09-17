@@ -1,0 +1,572 @@
+{
+  "mode": "precomputed_hackathon_demo",
+  "patient": {
+    "patient_id": "Patient_101",
+    "n_longitudinal_observations": 21,
+    "hypothetical_surgery_year": 2026.0
+  },
+  "candidate_comparison": [
+    {
+      "candidate_id": "OBS_013",
+      "procedure_type": "TAVR",
+      "valve_model": "Edwards-Sapien",
+      "valve_size_mm": 29.0,
+      "valve_position": "aortic",
+      "estimated_event_free_years_12y_rmst": 10.75,
+      "median_survival_years": 11.0,
+      "survival_5y_percent": 98.3,
+      "survival_8y_percent": 92.3,
+      "survival_10y_percent": 62.8
+    },
+    {
+      "candidate_id": "OBS_006",
+      "procedure_type": "SAVR",
+      "valve_model": "Carpentier-Edwards pericardial",
+      "valve_size_mm": 25.0,
+      "valve_position": "aortic",
+      "estimated_event_free_years_12y_rmst": 10.46,
+      "median_survival_years": 11.0,
+      "survival_5y_percent": 98.7,
+      "survival_8y_percent": 91.3,
+      "survival_10y_percent": 53.0
+    },
+    {
+      "candidate_id": "OBS_014",
+      "procedure_type": "TAVR",
+      "valve_model": "UNKNOWN_MODEL",
+      "valve_size_mm": 26.0,
+      "valve_position": "aortic",
+      "estimated_event_free_years_12y_rmst": 10.41,
+      "median_survival_years": 10.0,
+      "survival_5y_percent": 98.6,
+      "survival_8y_percent": 91.1,
+      "survival_10y_percent": 49.5
+    },
+    {
+      "candidate_id": "OBS_007",
+      "procedure_type": "SAVR",
+      "valve_model": "Carpentier-Edwards prosthetic aortic valve (size #25)",
+      "valve_size_mm": 25.0,
+      "valve_position": "aortic",
+      "estimated_event_free_years_12y_rmst": 10.25,
+      "median_survival_years": 10.0,
+      "survival_5y_percent": 98.7,
+      "survival_8y_percent": 89.9,
+      "survival_10y_percent": 45.3
+    },
+    {
+      "candidate_id": "OBS_001",
+      "procedure_type": "SAVR",
+      "valve_model": "23 TRIFECTA",
+      "valve_size_mm": null,
+      "valve_position": "aortic",
+      "estimated_event_free_years_12y_rmst": 10.04,
+      "median_survival_years": 10.0,
+      "survival_5y_percent": 98.8,
+      "survival_8y_percent": 85.9,
+      "survival_10y_percent": 39.4
+    },
+    {
+      "candidate_id": "OBS_005",
+      "procedure_type": "SAVR",
+      "valve_model": "Carpentier-Edwards bovine pericardial aortic valve",
+      "valve_size_mm": 23.0,
+      "valve_position": "aortic",
+      "estimated_event_free_years_12y_rmst": 9.65,
+      "median_survival_years": 10.0,
+      "survival_5y_percent": 98.1,
+      "survival_8y_percent": 79.5,
+      "survival_10y_percent": 29.6
+    },
+    {
+      "candidate_id": "OBS_004",
+      "procedure_type": "SAVR",
+      "valve_model": "Carpentier-Edwards bovine pericardial",
+      "valve_size_mm": 23.0,
+      "valve_position": "aortic",
+      "estimated_event_free_years_12y_rmst": 9.58,
+      "median_survival_years": 9.0,
+      "survival_5y_percent": 97.8,
+      "survival_8y_percent": 79.6,
+      "survival_10y_percent": 28.3
+    },
+    {
+      "candidate_id": "OBS_016",
+      "procedure_type": "TAVR",
+      "valve_model": "UNKNOWN_MODEL",
+      "valve_size_mm": null,
+      "valve_position": "aortic",
+      "estimated_event_free_years_12y_rmst": 9.45,
+      "median_survival_years": 9.0,
+      "survival_5y_percent": 97.8,
+      "survival_8y_percent": 79.9,
+      "survival_10y_percent": 21.5
+    },
+    {
+      "candidate_id": "OBS_009",
+      "procedure_type": "SAVR",
+      "valve_model": "Trifecta",
+      "valve_size_mm": 23.0,
+      "valve_position": "aortic",
+      "estimated_event_free_years_12y_rmst": 9.34,
+      "median_survival_years": 9.0,
+      "survival_5y_percent": 97.2,
+      "survival_8y_percent": 69.8,
+      "survival_10y_percent": 23.4
+    },
+    {
+      "candidate_id": "OBS_011",
+      "procedure_type": "SAVR",
+      "valve_model": "UNKNOWN_MODEL",
+      "valve_size_mm": null,
+      "valve_position": "aortic",
+      "estimated_event_free_years_12y_rmst": 9.19,
+      "median_survival_years": 9.0,
+      "survival_5y_percent": 97.5,
+      "survival_8y_percent": 72.1,
+      "survival_10y_percent": 16.6
+    },
+    {
+      "candidate_id": "OBS_010",
+      "procedure_type": "SAVR",
+      "valve_model": "Trifecta valve",
+      "valve_size_mm": 23.0,
+      "valve_position": "aortic",
+      "estimated_event_free_years_12y_rmst": 9.17,
+      "median_survival_years": 9.0,
+      "survival_5y_percent": 96.9,
+      "survival_8y_percent": 69.1,
+      "survival_10y_percent": 19.6
+    },
+    {
+      "candidate_id": "OBS_002",
+      "procedure_type": "SAVR",
+      "valve_model": "23-mm pericardial prosthesis",
+      "valve_size_mm": 23.0,
+      "valve_position": "aortic",
+      "estimated_event_free_years_12y_rmst": 9.08,
+      "median_survival_years": 9.0,
+      "survival_5y_percent": 97.4,
+      "survival_8y_percent": 67.6,
+      "survival_10y_percent": 15.8
+    },
+    {
+      "candidate_id": "OBS_015",
+      "procedure_type": "TAVR",
+      "valve_model": "UNKNOWN_MODEL",
+      "valve_size_mm": 23.0,
+      "valve_position": "aortic",
+      "estimated_event_free_years_12y_rmst": 8.85,
+      "median_survival_years": 9.0,
+      "survival_5y_percent": 95.6,
+      "survival_8y_percent": 68.3,
+      "survival_10y_percent": 11.1
+    },
+    {
+      "candidate_id": "OBS_012",
+      "procedure_type": "SAVR",
+      "valve_model": "trifecta",
+      "valve_size_mm": 23.0,
+      "valve_position": "aortic",
+      "estimated_event_free_years_12y_rmst": 8.74,
+      "median_survival_years": 9.0,
+      "survival_5y_percent": 94.0,
+      "survival_8y_percent": 58.4,
+      "survival_10y_percent": 13.9
+    },
+    {
+      "candidate_id": "OBS_008",
+      "procedure_type": "SAVR",
+      "valve_model": "Perimount",
+      "valve_size_mm": 23.0,
+      "valve_position": "aortic",
+      "estimated_event_free_years_12y_rmst": 8.74,
+      "median_survival_years": 9.0,
+      "survival_5y_percent": 95.5,
+      "survival_8y_percent": 56.3,
+      "survival_10y_percent": 12.0
+    },
+    {
+      "candidate_id": "OBS_003",
+      "procedure_type": "SAVR",
+      "valve_model": "Carpentier-Edwards bovine pericardial",
+      "valve_size_mm": 21.0,
+      "valve_position": "aortic",
+      "estimated_event_free_years_12y_rmst": 7.76,
+      "median_survival_years": 8.0,
+      "survival_5y_percent": 84.7,
+      "survival_8y_percent": 45.8,
+      "survival_10y_percent": 4.5
+    }
+  ],
+  "highest_model_estimate": {
+    "candidate_id": "OBS_013",
+    "procedure_type": "TAVR",
+    "valve_model": "Edwards-Sapien",
+    "valve_size_mm": 29.0,
+    "rmst_years_horizon": 10.753087997436523,
+    "survival_5y": 0.9828376770019531,
+    "survival_8y": 0.9226755499839783,
+    "survival_10y": 0.6282497644424438
+  },
+  "patient_history_drivers": [
+    {
+      "modality": "prior valve history",
+      "feature": "prior_has_SAVR",
+      "effect_years": 0.1877899169921875,
+      "absolute_effect_years": 0.1877899169921875
+    },
+    {
+      "modality": "prior valve history",
+      "feature": "prior_latest_valve_size_mm",
+      "effect_years": 0.0805578231811523,
+      "absolute_effect_years": 0.0805578231811523
+    },
+    {
+      "modality": "prior valve history",
+      "feature": "prior_has_TAVR",
+      "effect_years": 0.0142364501953125,
+      "absolute_effect_years": 0.0142364501953125
+    },
+    {
+      "modality": "lab",
+      "feature": "Total Bilirubin",
+      "effect_years": 0.0067729949951171,
+      "absolute_effect_years": 0.0067729949951171
+    },
+    {
+      "modality": "lab",
+      "feature": "LVEF",
+      "effect_years": -0.0065279006958007,
+      "absolute_effect_years": 0.0065279006958007
+    },
+    {
+      "modality": "lab",
+      "feature": "Creatinine",
+      "effect_years": -0.0052413940429687,
+      "absolute_effect_years": 0.0052413940429687
+    },
+    {
+      "modality": "lab",
+      "feature": "Anion Gap",
+      "effect_years": 0.0048284530639648,
+      "absolute_effect_years": 0.0048284530639648
+    },
+    {
+      "modality": "lab",
+      "feature": "MCHC",
+      "effect_years": 0.0034751892089843,
+      "absolute_effect_years": 0.0034751892089843
+    },
+    {
+      "modality": "lab",
+      "feature": "RBC",
+      "effect_years": 0.0023021697998046,
+      "absolute_effect_years": 0.0023021697998046
+    },
+    {
+      "modality": "lab",
+      "feature": "MCH",
+      "effect_years": 0.0021839141845703,
+      "absolute_effect_years": 0.0021839141845703
+    },
+    {
+      "modality": "medication",
+      "feature": "anticoagulant",
+      "effect_years": -0.0019702911376953,
+      "absolute_effect_years": 0.0019702911376953
+    },
+    {
+      "modality": "lab",
+      "feature": "NT-proBNP",
+      "effect_years": 0.0019454956054687,
+      "absolute_effect_years": 0.0019454956054687
+    },
+    {
+      "modality": "lab",
+      "feature": "ALT",
+      "effect_years": -0.0019283294677734,
+      "absolute_effect_years": 0.0019283294677734
+    },
+    {
+      "modality": "lab",
+      "feature": "Hematocrit",
+      "effect_years": -0.0017728805541992,
+      "absolute_effect_years": 0.0017728805541992
+    },
+    {
+      "modality": "lab",
+      "feature": "CO2",
+      "effect_years": 0.0016508102416992,
+      "absolute_effect_years": 0.0016508102416992
+    },
+    {
+      "modality": "lab",
+      "feature": "Albumin",
+      "effect_years": -0.0014877319335937,
+      "absolute_effect_years": 0.0014877319335937
+    },
+    {
+      "modality": "lab",
+      "feature": "Potassium",
+      "effect_years": -0.0012283325195312,
+      "absolute_effect_years": 0.0012283325195312
+    },
+    {
+      "modality": "lab",
+      "feature": "Alkaline Phosphatase",
+      "effect_years": 0.0012149810791015,
+      "absolute_effect_years": 0.0012149810791015
+    },
+    {
+      "modality": "medication",
+      "feature": "ccb",
+      "effect_years": -0.0011482238769531,
+      "absolute_effect_years": 0.0011482238769531
+    },
+    {
+      "modality": "lab",
+      "feature": "BUN",
+      "effect_years": 0.0010223388671875,
+      "absolute_effect_years": 0.0010223388671875
+    },
+    {
+      "modality": "prior valve history",
+      "feature": "prior_redo_count",
+      "effect_years": 0.0009164810180664,
+      "absolute_effect_years": 0.0009164810180664
+    },
+    {
+      "modality": "lab",
+      "feature": "Sodium",
+      "effect_years": 0.0008926391601562,
+      "absolute_effect_years": 0.0008926391601562
+    },
+    {
+      "modality": "lab",
+      "feature": "Calcium",
+      "effect_years": -0.0008068084716796,
+      "absolute_effect_years": 0.0008068084716796
+    },
+    {
+      "modality": "lab",
+      "feature": "WBC",
+      "effect_years": 0.0007696151733398,
+      "absolute_effect_years": 0.0007696151733398
+    },
+    {
+      "modality": "lab",
+      "feature": "INR",
+      "effect_years": 0.0007658004760742,
+      "absolute_effect_years": 0.0007658004760742
+    },
+    {
+      "modality": "prior valve history",
+      "feature": "prior_valve_count",
+      "effect_years": 0.0007591247558593,
+      "absolute_effect_years": 0.0007591247558593
+    },
+    {
+      "modality": "lab",
+      "feature": "Total Protein",
+      "effect_years": -0.0007343292236328,
+      "absolute_effect_years": 0.0007343292236328
+    },
+    {
+      "modality": "lab",
+      "feature": "AST",
+      "effect_years": 0.0006513595581054,
+      "absolute_effect_years": 0.0006513595581054
+    },
+    {
+      "modality": "lab",
+      "feature": "eGFR",
+      "effect_years": -0.000619888305664,
+      "absolute_effect_years": 0.000619888305664
+    },
+    {
+      "modality": "medication",
+      "feature": "statin",
+      "effect_years": 0.0005340576171875,
+      "absolute_effect_years": 0.0005340576171875
+    },
+    {
+      "modality": "medication",
+      "feature": "antiplatelet",
+      "effect_years": -0.0004310607910156,
+      "absolute_effect_years": 0.0004310607910156
+    },
+    {
+      "modality": "lab",
+      "feature": "APTT",
+      "effect_years": 0.0003566741943359,
+      "absolute_effect_years": 0.0003566741943359
+    },
+    {
+      "modality": "medication",
+      "feature": "insulin",
+      "effect_years": -0.0003156661987304,
+      "absolute_effect_years": 0.0003156661987304
+    },
+    {
+      "modality": "lab",
+      "feature": "MCV",
+      "effect_years": 0.0002975463867187,
+      "absolute_effect_years": 0.0002975463867187
+    },
+    {
+      "modality": "lab",
+      "feature": "Glucose",
+      "effect_years": -0.0002450942993164,
+      "absolute_effect_years": 0.0002450942993164
+    },
+    {
+      "modality": "lab",
+      "feature": "Platelets",
+      "effect_years": 0.0002403259277343,
+      "absolute_effect_years": 0.0002403259277343
+    },
+    {
+      "modality": "medication",
+      "feature": "beta_blocker",
+      "effect_years": 0.0001811981201171,
+      "absolute_effect_years": 0.0001811981201171
+    },
+    {
+      "modality": "lab",
+      "feature": "RDW",
+      "effect_years": 0.0001697540283203,
+      "absolute_effect_years": 0.0001697540283203
+    },
+    {
+      "modality": "lab",
+      "feature": "Chloride",
+      "effect_years": 0.0001602172851562,
+      "absolute_effect_years": 0.0001602172851562
+    },
+    {
+      "modality": "prior valve history",
+      "feature": "prior_known_model_count",
+      "effect_years": -9.441375732421876e-05,
+      "absolute_effect_years": 9.441375732421876e-05
+    },
+    {
+      "modality": "medication",
+      "feature": "ace_inhibitor",
+      "effect_years": -5.054473876953125e-05,
+      "absolute_effect_years": 5.054473876953125e-05
+    },
+    {
+      "modality": "lab",
+      "feature": "Hemoglobin",
+      "effect_years": -3.719329833984375e-05,
+      "absolute_effect_years": 3.719329833984375e-05
+    },
+    {
+      "modality": "medication",
+      "feature": "loop_diuretic",
+      "effect_years": 2.86102294921875e-05,
+      "absolute_effect_years": 2.86102294921875e-05
+    },
+    {
+      "modality": "medication",
+      "feature": "arb",
+      "effect_years": -7.62939453125e-06,
+      "absolute_effect_years": 7.62939453125e-06
+    },
+    {
+      "modality": "medication",
+      "feature": "arni",
+      "effect_years": 0.0,
+      "absolute_effect_years": 0.0
+    },
+    {
+      "modality": "medication",
+      "feature": "antiarrhythmic",
+      "effect_years": 0.0,
+      "absolute_effect_years": 0.0
+    },
+    {
+      "modality": "lab",
+      "feature": "Troponin T",
+      "effect_years": 0.0,
+      "absolute_effect_years": 0.0
+    },
+    {
+      "modality": "medication",
+      "feature": "digoxin",
+      "effect_years": 0.0,
+      "absolute_effect_years": 0.0
+    },
+    {
+      "modality": "medication",
+      "feature": "sglt2_inhibitor",
+      "effect_years": 0.0,
+      "absolute_effect_years": 0.0
+    },
+    {
+      "modality": "medication",
+      "feature": "mra",
+      "effect_years": 0.0,
+      "absolute_effect_years": 0.0
+    },
+    {
+      "modality": "medication",
+      "feature": "thiazide_diuretic",
+      "effect_years": 0.0,
+      "absolute_effect_years": 0.0
+    },
+    {
+      "modality": "prior valve history",
+      "feature": "prior_ViV_count",
+      "effect_years": 0.0,
+      "absolute_effect_years": 0.0
+    }
+  ],
+  "candidate_pair_explanation": {
+    "candidate_A": "OBS_006",
+    "candidate_B": "OBS_013",
+    "delta_rmst_years_B_minus_A": 0.2888813018798828,
+    "shapley": [
+      {
+        "candidate_feature": "procedure_type",
+        "delta_years": 0.0905582110087076,
+        "candidate_A_value": "SAVR",
+        "candidate_B_value": "TAVR"
+      },
+      {
+        "candidate_feature": "valve_model",
+        "delta_years": 0.0665814081827799,
+        "candidate_A_value": "Carpentier-Edwards pericardial",
+        "candidate_B_value": "Edwards-Sapien"
+      },
+      {
+        "candidate_feature": "valve_size_mm",
+        "delta_years": 0.1317416826883952,
+        "candidate_A_value": "25.0",
+        "candidate_B_value": "29.0"
+      },
+      {
+        "candidate_feature": "valve_position",
+        "delta_years": 0.0,
+        "candidate_A_value": "aortic",
+        "candidate_B_value": "aortic"
+      }
+    ]
+  },
+  "final_model_validation": {
+    "test_harrell_c_index": 0.862787207973678,
+    "mean_within_patient_spearman": 0.8226666666666667,
+    "top1_candidate_accuracy": 0.76,
+    "pairwise_candidate_ranking_accuracy": 0.8833333333333333,
+    "global_hidden_truth_spearman": 0.9083178564384901,
+    "global_hidden_truth_pearson": 0.9416687753922589,
+    "note": "Held-out semi-synthetic evaluation; not clinical validation."
+  },
+  "figure_assets": {
+    "survival_curves": "figures/Patient_101_survival_curves.png",
+    "patient_history_drivers": "figures/Patient_101_history_drivers.png",
+    "candidate_shapley": "figures/Patient_101_valve_comparison_shapley.png"
+  },
+  "disclaimer": "Research prototype \u2014 data-grounded semi-synthetic proof of concept. Predictions are not clinically validated and should not be used for treatment decisions."
+}

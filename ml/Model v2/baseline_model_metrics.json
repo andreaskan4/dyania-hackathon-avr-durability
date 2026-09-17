@@ -1,0 +1,8 @@
+{
+  "test_harrell_c_index": 0.8784812566252289,
+  "mean_within_patient_spearman": 0.43866666666666665,
+  "top1_candidate_accuracy": 0.5133333333333333,
+  "pairwise_candidate_ranking_accuracy": 0.6877777777777778,
+  "global_hidden_truth_spearman": 0.9351947644299012,
+  "global_hidden_truth_pearson": 0.9636690701811655
+}

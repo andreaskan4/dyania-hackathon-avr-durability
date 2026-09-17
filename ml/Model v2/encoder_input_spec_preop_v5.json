@@ -1,0 +1,91 @@
+{
+  "version": "heterogeneous_patient_valve_preop_v5",
+  "patient_id": "Patient",
+  "counterfactual_group_id": "counterfactual_group_id",
+  "scenario_id": "candidate_id",
+  "time_feature": "time_from_implant_months",
+  "time_semantics": "negative months before hypothetical candidate-valve implantation; the entire bootstrapped real donor record is pre-operative",
+  "lab_features": [
+    "lab__Hemoglobin",
+    "lab__Hematocrit",
+    "lab__RBC",
+    "lab__WBC",
+    "lab__Platelets",
+    "lab__MCV",
+    "lab__MCH",
+    "lab__MCHC",
+    "lab__RDW",
+    "lab__Glucose",
+    "lab__Sodium",
+    "lab__Potassium",
+    "lab__Chloride",
+    "lab__CO2",
+    "lab__Calcium",
+    "lab__Anion Gap",
+    "lab__Creatinine",
+    "lab__BUN",
+    "lab__eGFR",
+    "lab__Albumin",
+    "lab__Total Protein",
+    "lab__AST",
+    "lab__ALT",
+    "lab__Alkaline Phosphatase",
+    "lab__Total Bilirubin",
+    "lab__INR",
+    "lab__APTT",
+    "lab__LVEF",
+    "lab__Troponin T",
+    "lab__NT-proBNP"
+  ],
+  "medication_features": [
+    "med__beta_blocker__present",
+    "med__ace_inhibitor__present",
+    "med__arb__present",
+    "med__arni__present",
+    "med__loop_diuretic__present",
+    "med__thiazide_diuretic__present",
+    "med__mra__present",
+    "med__anticoagulant__present",
+    "med__antiplatelet__present",
+    "med__statin__present",
+    "med__ccb__present",
+    "med__sglt2_inhibitor__present",
+    "med__digoxin__present",
+    "med__antiarrhythmic__present",
+    "med__insulin__present"
+  ],
+  "prior_valve_history_features": [
+    "prior_valve_count",
+    "prior_has_SAVR",
+    "prior_has_TAVR",
+    "prior_redo_count",
+    "prior_ViV_count",
+    "prior_latest_valve_size_mm",
+    "prior_known_model_count"
+  ],
+  "candidate_categorical_features": [
+    "candidate_procedure_type",
+    "candidate_valve_model",
+    "candidate_valve_position"
+  ],
+  "candidate_numeric_features": [
+    "candidate_valve_size_mm",
+    "candidate_observed_frequency"
+  ],
+  "targets": [
+    "duration_months",
+    "event"
+  ],
+  "auxiliary_target_or_audit": [
+    "event_type"
+  ],
+  "sampling_design": {
+    "trajectory_source": "bootstrap complete longitudinal records from all 17 real patients",
+    "prior_history_source": "Qwen valve-history donor pool from all 17",
+    "candidate_source": "observed SAVR/TAVR type/model/size configurations from full Qwen procedure pool",
+    "same_patient_multiple_candidates": true
+  },
+  "split_rule": "group by Patient/counterfactual_group_id; candidate scenarios from the same synthetic patient must never cross train/val/test",
+  "heterogeneous_interactions": true,
+  "clinical_interpretation": "proof-of-concept synthetic event-free valve durability; not clinically validated and candidate effects are synthetic"
+}

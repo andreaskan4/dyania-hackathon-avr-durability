@@ -1,0 +1,17 @@
+candidate_id,procedure_type,valve_model,valve_size_mm,estimated_event_free_years_12y_rmst,median_survival_years,survival_5y,survival_8y,survival_10y
+OBS_013,TAVR,Edwards-Sapien,29.0,10.75,11.0,98.3,92.3,62.8
+OBS_006,SAVR,Carpentier-Edwards pericardial,25.0,10.46,11.0,98.7,91.3,53.0
+OBS_014,TAVR,UNKNOWN_MODEL,26.0,10.41,10.0,98.6,91.1,49.5
+OBS_007,SAVR,Carpentier-Edwards prosthetic aortic valve (size #25),25.0,10.25,10.0,98.7,89.9,45.3
+OBS_001,SAVR,23 TRIFECTA,,10.04,10.0,98.8,85.9,39.4
+OBS_005,SAVR,Carpentier-Edwards bovine pericardial aortic valve,23.0,9.65,10.0,98.1,79.5,29.6
+OBS_004,SAVR,Carpentier-Edwards bovine pericardial,23.0,9.58,9.0,97.8,79.6,28.3
+OBS_016,TAVR,UNKNOWN_MODEL,,9.45,9.0,97.8,79.9,21.5
+OBS_009,SAVR,Trifecta,23.0,9.34,9.0,97.2,69.8,23.4
+OBS_011,SAVR,UNKNOWN_MODEL,,9.19,9.0,97.5,72.1,16.6
+OBS_010,SAVR,Trifecta valve,23.0,9.17,9.0,96.9,69.1,19.6
+OBS_002,SAVR,23-mm pericardial prosthesis,23.0,9.08,9.0,97.4,67.6,15.8
+OBS_015,TAVR,UNKNOWN_MODEL,23.0,8.85,9.0,95.6,68.3,11.1
+OBS_012,SAVR,trifecta,23.0,8.74,9.0,94.0,58.4,13.9
+OBS_008,SAVR,Perimount,23.0,8.74,9.0,95.5,56.3,12.0
+OBS_003,SAVR,Carpentier-Edwards bovine pericardial,21.0,7.76,8.0,84.7,45.8,4.5

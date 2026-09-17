@@ -1,0 +1,5 @@
+candidate_feature,shapley_delta_years,A_value,B_value
+procedure_type,0.09055821100870769,SAVR,TAVR
+valve_model,0.06658140818277994,Carpentier-Edwards pericardial,Edwards-Sapien
+valve_size_mm,0.1317416826883952,25.0,29.0
+valve_position,0.0,aortic,aortic

@@ -1,0 +1,21 @@
+{
+  "patient": "Patient_101",
+  "hypothetical_surgery_year": 2026.0,
+  "n_longitudinal_observations": 21,
+  "highest_model_estimate": {
+    "candidate_id": "OBS_013",
+    "procedure_type": "TAVR",
+    "valve_model": "Edwards-Sapien",
+    "valve_size_mm": 29.0,
+    "rmst_years_horizon": 10.753087997436523,
+    "survival_5y": 0.9828376770019531,
+    "survival_8y": 0.9226755499839783,
+    "survival_10y": 0.6282497644424438
+  },
+  "candidate_pair_explanation": {
+    "candidate_A": "OBS_006",
+    "candidate_B": "OBS_013",
+    "delta_rmst_years_B_minus_A": 0.2888813018798828
+  },
+  "disclaimer": "Semi-synthetic proof-of-concept. Not clinically validated and not a treatment recommendation."
+}

@@ -1,0 +1,17 @@
+candidate_id,candidate_procedure_type,candidate_valve_model,candidate_valve_size_mm,candidate_valve_position,observed_frequency,n_source_patients,candidate_information_score
+OBS_001,SAVR,23 TRIFECTA,,aortic,1,1,1
+OBS_002,SAVR,23-mm pericardial prosthesis,23.0,aortic,1,1,2
+OBS_003,SAVR,Carpentier-Edwards bovine pericardial,21.0,aortic,1,1,2
+OBS_004,SAVR,Carpentier-Edwards bovine pericardial,23.0,aortic,1,1,2
+OBS_005,SAVR,Carpentier-Edwards bovine pericardial aortic valve,23.0,aortic,1,1,2
+OBS_006,SAVR,Carpentier-Edwards pericardial,25.0,aortic,1,1,2
+OBS_007,SAVR,Carpentier-Edwards prosthetic aortic valve (size #25),25.0,aortic,1,1,2
+OBS_008,SAVR,Perimount,23.0,aortic,1,1,2
+OBS_009,SAVR,Trifecta,23.0,aortic,1,1,2
+OBS_010,SAVR,Trifecta valve,23.0,aortic,1,1,2
+OBS_011,SAVR,UNKNOWN_MODEL,,aortic,4,4,0
+OBS_012,SAVR,trifecta,23.0,aortic,1,1,2
+OBS_013,TAVR,Edwards-Sapien,29.0,aortic,1,1,2
+OBS_014,TAVR,UNKNOWN_MODEL,26.0,aortic,1,1,2
+OBS_015,TAVR,UNKNOWN_MODEL,23.0,aortic,1,1,1
+OBS_016,TAVR,UNKNOWN_MODEL,,aortic,1,1,0

@@ -1,0 +1,121 @@
+{
+  "lab_mean": {
+    "lab__ALT": 26.706486122610105,
+    "lab__APTT": 32.182745776776,
+    "lab__AST": 26.438846953460324,
+    "lab__Albumin": 3.672568744735438,
+    "lab__Alkaline Phosphatase": 66.38285625409165,
+    "lab__Anion Gap": 11.153542622849189,
+    "lab__BUN": 23.00766452579845,
+    "lab__CO2": 26.052821903434463,
+    "lab__Calcium": 9.024408272584681,
+    "lab__Chloride": 101.99183468210484,
+    "lab__Creatinine": 1.1852689679645438,
+    "lab__Glucose": 131.09886489281686,
+    "lab__Hematocrit": 35.26082829773685,
+    "lab__Hemoglobin": 11.507887448140243,
+    "lab__INR": 1.1047729728957316,
+    "lab__LVEF": 48.40896397535506,
+    "lab__MCH": 29.83323395380483,
+    "lab__MCHC": 32.90644779816137,
+    "lab__MCV": 90.87849014064248,
+    "lab__NT-proBNP": 1331.6258632528989,
+    "lab__Platelets": 180.46226737301524,
+    "lab__Potassium": 4.201974979796966,
+    "lab__RBC": 3.8797701871891426,
+    "lab__RDW": 14.34739447572177,
+    "lab__Sodium": 139.1629660332957,
+    "lab__Total Bilirubin": 0.6540848866720599,
+    "lab__Total Protein": 6.2549946604042965,
+    "lab__Troponin T": 0.3840753369276148,
+    "lab__WBC": 8.185007154777786,
+    "lab__eGFR": 54.80134917884061
+  },
+  "lab_std": {
+    "lab__ALT": 22.93088771857147,
+    "lab__APTT": 9.626393535538517,
+    "lab__AST": 17.540239795570812,
+    "lab__Albumin": 0.5666803294451335,
+    "lab__Alkaline Phosphatase": 19.98833094945189,
+    "lab__Anion Gap": 2.054578597572514,
+    "lab__BUN": 13.88575934698703,
+    "lab__CO2": 1.829806102261494,
+    "lab__Calcium": 0.5864020339746066,
+    "lab__Chloride": 2.9194935546547134,
+    "lab__Creatinine": 0.3597482878323855,
+    "lab__Glucose": 37.25944500686484,
+    "lab__Hematocrit": 5.803823581092906,
+    "lab__Hemoglobin": 2.0264803695925058,
+    "lab__INR": 0.1578249179268863,
+    "lab__LVEF": 14.447866487092096,
+    "lab__MCH": 1.638174585445482,
+    "lab__MCHC": 1.0054413543270773,
+    "lab__MCV": 4.641615566381527,
+    "lab__NT-proBNP": 1473.3121730689427,
+    "lab__Platelets": 68.09142668384524,
+    "lab__Potassium": 0.4816660577595997,
+    "lab__RBC": 0.593396278652732,
+    "lab__RDW": 1.1718326379146635,
+    "lab__Sodium": 2.973822315039867,
+    "lab__Total Bilirubin": 0.2696130079020384,
+    "lab__Total Protein": 0.7896465732275321,
+    "lab__Troponin T": 0.714957387924078,
+    "lab__WBC": 1.6986468393100818,
+    "lab__eGFR": 8.987946862785002
+  },
+  "history_mean": {
+    "prior_valve_count": 1.1187410586552218,
+    "prior_has_SAVR": 0.871244635193133,
+    "prior_has_TAVR": 0.2474964234620887,
+    "prior_redo_count": 0.11874105865522175,
+    "prior_ViV_count": 0.0,
+    "prior_latest_valve_size_mm": 23.927063339731287,
+    "prior_known_model_count": 0.7367668097281831
+  },
+  "history_std": {
+    "prior_valve_count": 0.3235414324422543,
+    "prior_has_SAVR": 0.3349888891808316,
+    "prior_has_TAVR": 0.431634773627815,
+    "prior_redo_count": 0.3235414324422543,
+    "prior_ViV_count": 1.0,
+    "prior_latest_valve_size_mm": 1.950529997726341,
+    "prior_known_model_count": 0.4404666463344011
+  },
+  "candidate_num_mean": {
+    "candidate_valve_size_mm": 23.882512601783638
+  },
+  "candidate_num_std": {
+    "candidate_valve_size_mm": 1.9434800110302208
+  },
+  "candidate_vocabs": {
+    "candidate_procedure_type": {
+      "UNKNOWN": 0,
+      "SAVR": 1,
+      "TAVR": 2
+    },
+    "candidate_valve_model": {
+      "UNKNOWN": 0,
+      "23 TRIFECTA": 1,
+      "23-mm pericardial prosthesis": 2,
+      "Carpentier-Edwards bovine pericardial": 3,
+      "Carpentier-Edwards bovine pericardial aortic valve": 4,
+      "Carpentier-Edwards pericardial": 5,
+      "Carpentier-Edwards prosthetic aortic valve (size #25)": 6,
+      "Edwards-Sapien": 7,
+      "Perimount": 8,
+      "Trifecta": 9,
+      "Trifecta valve": 10,
+      "UNKNOWN_MODEL": 11,
+      "trifecta": 12
+    },
+    "candidate_valve_position": {
+      "UNKNOWN": 0,
+      "aortic": 1
+    }
+  },
+  "horizon_years": 12,
+  "bin_width_years": 1.0,
+  "rank_loss_weight": 0.3,
+  "rank_temperature_years": 0.5,
+  "architecture": "interaction_aware_patient_valve"
+}
